@@ -123,3 +123,18 @@ h1 {
 .tagline {
   animation-delay: 0.5s;
 }
+/* Style for Contact Information */
+.contact-info p {
+  text-decoration: none; /* Removes underline for the entire paragraph */
+  color: #333; /* Standard text color for the paragraph */
+}
+
+/* Style for clickable email link */
+.email-link {
+  color: #0077cc; /* Color for the email link */
+  text-decoration: none; /* Remove underline by default */
+}
+
+.email-link:hover {
+  text-decoration: underline; /* Adds underline when hovering over the email link */
+}
