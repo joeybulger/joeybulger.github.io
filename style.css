@@ -41,3 +41,44 @@ nav a:hover {
   font-size: 0.9em;
   color: #aaa;
 }
+.instagram-section {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.insta-link {
+  display: inline-block;
+  text-decoration: none;
+  color: #000;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  padding: 10px 15px;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  width: 160px;
+  text-align: center;
+  transition: background-color 0.2s ease;
+}
+
+.insta-link:hover {
+  background-color: #e2e2e2;
+}
+
+.insta-link i {
+  margin-right: 8px;
+  font-size: 1.2em;
+  vertical-align: middle;
+}
+
+.insta-link span {
+  vertical-align: middle;
+  font-weight: bold;
+}
+
+.qr-img {
+  width: 160px;
+  max-width: 80%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
