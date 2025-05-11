@@ -149,3 +149,14 @@ nav a:hover {
     max-width: 200px;
   }
 }
+.hyacinth-banner-container {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  opacity: 0.12; /* less translucent than 0.03 or 0.07 */
+}
+
+.hyacinth-banner-img {
+  max-width: 90%;
+  height: auto;
+}
