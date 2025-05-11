@@ -106,3 +106,20 @@ nav a {
   display: block;
   margin: 10px auto;
 }
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+h1, .tagline {
+  opacity: 0;
+  animation: fadeIn 1s ease-out forwards;
+}
+
+h1 {
+  animation-delay: 0.2s;
+}
+
+.tagline {
+  animation-delay: 0.5s;
+}
