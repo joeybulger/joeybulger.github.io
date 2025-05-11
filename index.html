@@ -30,13 +30,18 @@
       margin: 40px auto 80px;
     }
 
-    .hyacinth-image img.hyacinth-img {
-      width: 100px;
-      opacity: 0.06;
-      position: absolute;
-      top: 20px;
-      left: 20px;
-      z-index: -1;
+    /* Hyacinth Banner Image */
+    .hyacinth-banner-container {
+      position: relative;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .hyacinth-banner-img {
+      width: 100%;
+      opacity: 0.6; /* Adjust opacity to your preference */
+      display: block;
+      margin: 0 auto;
     }
 
     .tagline {
@@ -122,14 +127,23 @@
       color: #0077cc;
       text-decoration: underline;
     }
+
+    /* Boar GIF */
+    .boar-gif {
+      width: 150px; /* Adjust size as needed */
+      display: block;
+      margin: 30px auto 10px; /* Margin to create space from the footer */
+    }
   </style>
 </head>
 <body>
   <header>
     <div class="hyacinth-banner-container">
-    <img src="hyacinthbanner.png" alt="Hyacinth Flower Banner" class="hyacinth-banner-img">
-  </div>
-  <h1>Welcome.<br>Peruse my pertinent information</h1>
+      <img src="hyacinthbanner.png" alt="Hyacinth Flower Banner" class="hyacinth-banner-img">
+    </div>
+    <h1>Welcome.<br>Peruse my pertinent information</h1>
+  </header>
+
   <div class="container">
     <h1>Joseph "Joey" Bulger IV</h1>
     <p class="tagline">Joseph the Fourth. Technically skilled and skilled... technically</p>
@@ -157,6 +171,8 @@
 
     <p class="footer">© 2025 Joey Bulger, est. 1993</p>
   </div>
-<img src="boar-running.gif" alt="Running Boar" class="boar-gif">
+
+  <!-- Boar GIF at the bottom of the page -->
+  <img src="boar-running.gif" alt="Running Boar" class="boar-gif">
 </body>
 </html>
