@@ -160,3 +160,10 @@ nav a:hover {
   max-width: 90%;
   height: auto;
 }
+.boar-gif {
+  display: block;
+  margin: 20px auto 0;
+  max-width: 120px; /* adjust size if needed */
+  height: auto;
+  opacity: 0.9;
+}
