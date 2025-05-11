@@ -151,3 +151,26 @@ nav a:hover {
     max-width: 200px;
   }
 }
+body {
+  background-color: #121212;
+  color: #e0e0e0;
+}
+
+nav a,
+.email-link,
+.insta-link {
+  color: #90caf9;
+}
+
+.insta-link {
+  background-color: #1f1f1f;
+  border-color: #333;
+}
+
+.insta-link:hover {
+  background-color: #333;
+}
+
+.footer {
+  color: #777;
+}
