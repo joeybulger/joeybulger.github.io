@@ -1,8 +1,8 @@
 /* Global Styles */
 body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  background: #f9f9f9;
-  color: #333;
+  background: #f9f9f9;  /* Light background */
+  color: #333;  /* Text color */
   margin: 0;
   padding: 0;
 }
@@ -10,7 +10,7 @@ body {
 /* Layout */
 .container {
   max-width: 600px;
-  margin: 60px auto;
+  margin: 100px auto;
   text-align: center;
   padding: 20px;
 }
@@ -18,15 +18,15 @@ body {
 header {
   position: relative;
   text-align: center;
-  padding: 40px 20px 20px;
+  padding: 60px 20px;
   overflow: hidden;
-  margin: 40px auto 40px;
+  margin: 60px auto 100px;
 }
 
 /* Text Styles */
 h1 {
   font-size: 2.5em;
-  margin-bottom: 0.2em;
+  margin-bottom: 0.1em;
   opacity: 0;
   animation: fadeIn 1s ease-out forwards;
   animation-delay: 0.2s;
@@ -109,12 +109,12 @@ nav a:hover {
   margin: 0.5em 0;
 }
 
-.email-label a {
+.email-link, .email-label a {
   color: inherit;
   text-decoration: none;
 }
 
-.email-label a:hover {
+.email-link:hover, .email-label a:hover {
   color: #0077cc;
   text-decoration: underline;
 }
@@ -122,11 +122,21 @@ nav a:hover {
 /* Hyacinth Background */
 .hyacinth-image {
   position: absolute;
-  top: 45%;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: -1;
-  opacity: 0.015;
+  opacity: 0.07;
+  pointer-events: none;
+}
+
+.hyacinth-image {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+  opacity: 0.03;
   pointer-events: none;
 }
 
@@ -145,10 +155,5 @@ nav a:hover {
   .insta-link, .qr-img {
     width: 100%;
     max-width: 200px;
-  }
-
-  header {
-    padding: 20px 10px 10px;
-    margin: 20px auto 30px;
   }
 }
