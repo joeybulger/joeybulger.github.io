@@ -164,3 +164,28 @@ h1 {
   top: 0;
   left: -10%; /* Adjust this value for slight overflow on the left */
 }
+header {
+  position: relative;
+  text-align: center;
+  overflow: hidden; /* Prevents image overflow if needed */
+  padding: 40px 20px;
+}
+
+.hyacinth-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  pointer-events: none; /* Prevents it from interfering with clicks */
+}
+
+.hyacinth-img {
+  opacity: 0.15;
+  max-width: 120%;
+  height: auto;
+}
