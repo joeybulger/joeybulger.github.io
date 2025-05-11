@@ -172,3 +172,18 @@ nav a:hover {
   max-width: 90vw;
   height: auto;
 }
+header {
+  position: relative;
+  text-align: center;
+  padding: 40px 20px 30px; /* Reduced bottom padding */
+  overflow: hidden;
+  margin: 40px auto 40px; /* Reduce vertical margin */
+}
+
+header h1 {
+  margin-bottom: 0.2em; /* Tighter spacing under "Welcome" */
+}
+
+.container {
+  margin-top: 20px; /* Reduced from 100px to bring up your name */
+}
