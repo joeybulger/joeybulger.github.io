@@ -167,3 +167,10 @@ nav a:hover {
   height: auto;
   opacity: 0.9;
 }
+.boar-gif {
+  display: block;
+  margin: 5px auto 0; /* Reduced top margin */
+  max-width: 120px;
+  height: auto;
+  opacity: 0.9;
+}
