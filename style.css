@@ -58,6 +58,7 @@ nav a:hover {
   width: 160px;
   text-align: center;
   transition: background-color 0.2s ease;
+  cursor: pointer;
 }
 
 .insta-link:hover {
@@ -81,4 +82,27 @@ nav a:hover {
   height: auto;
   display: block;
   margin: 0 auto;
+}
+@media (max-width: 480px) {
+  .container {
+    padding: 10px;
+  }
+
+  .insta-link {
+    width: 100%;
+    max-width: 200px;
+  }
+
+  .qr-img {
+    width: 100%;
+    max-width: 200px;
+  }
+}
+nav {
+  margin-bottom: 2em;
+}
+
+nav a {
+  display: block;
+  margin: 10px auto;
 }
