@@ -138,3 +138,29 @@ h1 {
 .email-link:hover {
   text-decoration: underline; /* Adds underline when hovering over the email link */
 }
+/* Add these styles to your existing CSS */
+
+/* Container for the hyacinth image */
+.hyacinth-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1; /* Places the image behind other elements */
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Hyacinth image style */
+.hyacinth-img {
+  opacity: 0.2; /* Makes the image slightly transparent */
+  width: 120%; /* Stretches the image slightly beyond both ends */
+  height: auto; /* Maintains aspect ratio */
+  position: relative;
+  top: 0;
+  left: -10%; /* Adjust this value for slight overflow on the left */
+}
