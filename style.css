@@ -210,3 +210,11 @@ header {
   max-width: 300%;
   height: auto;
 }
+.email-label a {
+  text-decoration: none;
+  color: inherit;
+}
+.email-label a:hover {
+  text-decoration: underline;
+  color: #0077cc;
+}
